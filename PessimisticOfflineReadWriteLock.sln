@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrency.PessimisticOfflineReadWriteLock.AppConsole", "Concurrency.PessimisticOfflineReadWriteLock.AppConsole\Concurrency.PessimisticOfflineReadWriteLock.AppConsole.csproj", "{7A65480B-4662-4324-ABEF-83B439485A92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrency.PessimisticOfflineReadWriteLock.Infrastructure", "Concurrency.PessimisticOfflineReadWriteLock.Infrastructure\Concurrency.PessimisticOfflineReadWriteLock.Infrastructure.csproj", "{8C9A78C1-A9BA-4199-A35F-5FD734B9CD1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrency.PessimisticOfflineReadWriteLock.Model", "Concurrency.PessimisticOfflineReadWriteLock.Model\Concurrency.PessimisticOfflineReadWriteLock.Model.csproj", "{99E0CEBA-DBF0-4DA1-858D-A554B33EA511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrency.PessimisticOfflineReadWriteLock.Manager", "Concurrency.PessimisticOfflineReadWriteLock.Manager\Concurrency.PessimisticOfflineReadWriteLock.Manager.csproj", "{57971A96-229A-4240-A2FD-CFC06D278755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrency.PessimisticOfflineReadWriteLock.Repository.Sql", "Concurrency.PessimisticOfflineReadWriteLock.Repository.Sql\Concurrency.PessimisticOfflineReadWriteLock.Repository.Sql.csproj", "{DB156F16-805F-42C0-968B-D46CF41F9374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrency.PessimisticOfflineReadWriteLock.DbLockManager", "Concurrency.PessimisticOfflineReadWriteLock.DbLockManager\Concurrency.PessimisticOfflineReadWriteLock.DbLockManager.csproj", "{F7C82295-A33A-4F01-8F1B-62CAE3F058CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A65480B-4662-4324-ABEF-83B439485A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A65480B-4662-4324-ABEF-83B439485A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A65480B-4662-4324-ABEF-83B439485A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A65480B-4662-4324-ABEF-83B439485A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9A78C1-A9BA-4199-A35F-5FD734B9CD1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9A78C1-A9BA-4199-A35F-5FD734B9CD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9A78C1-A9BA-4199-A35F-5FD734B9CD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9A78C1-A9BA-4199-A35F-5FD734B9CD1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E0CEBA-DBF0-4DA1-858D-A554B33EA511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E0CEBA-DBF0-4DA1-858D-A554B33EA511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E0CEBA-DBF0-4DA1-858D-A554B33EA511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E0CEBA-DBF0-4DA1-858D-A554B33EA511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57971A96-229A-4240-A2FD-CFC06D278755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57971A96-229A-4240-A2FD-CFC06D278755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57971A96-229A-4240-A2FD-CFC06D278755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57971A96-229A-4240-A2FD-CFC06D278755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB156F16-805F-42C0-968B-D46CF41F9374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB156F16-805F-42C0-968B-D46CF41F9374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB156F16-805F-42C0-968B-D46CF41F9374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB156F16-805F-42C0-968B-D46CF41F9374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C82295-A33A-4F01-8F1B-62CAE3F058CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C82295-A33A-4F01-8F1B-62CAE3F058CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C82295-A33A-4F01-8F1B-62CAE3F058CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C82295-A33A-4F01-8F1B-62CAE3F058CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
